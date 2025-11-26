@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Navbar from '../components/Navbar'
-import HeroImg from '../assets/Images/Hero.png';
+import HeroImg from '../assets/Images/Hero.jpg';
 import ZestDifference from '../components/ZestDifference';
 import Favorites from '../components/Favorites';
 import Footer from '../components/Footer';
