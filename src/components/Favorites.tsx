@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion, type Variants } from 'framer-motion';
 import Image04 from "../assets/Images/img04.jpg";
 import Image05 from "../assets/Images/img05.jpg";

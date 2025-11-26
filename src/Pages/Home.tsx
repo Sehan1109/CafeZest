@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from "framer-motion";
 import Navbar from '../components/Navbar'
 import HeroImg from '../assets/Images/Hero.png';
@@ -64,10 +63,10 @@ const Home = () => {
         </section>
 
             {/* About section */}
-            <ZestDifference id="about" />
+            <ZestDifference />
 
             {/* Favorites section */}
-            <Favorites id="favorites" />
+            <Favorites />
 
             <Footer />
             
