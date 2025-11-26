@@ -1,11 +1,11 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import Image01 from '../assets/Images/img01.jpg';
 import Image02 from '../assets/Images/img02.jpg';
 import Image03 from '../assets/Images/img03.jpg';
 
-// 1. Define Animation Variants
-const containerVariants = {
+// 1. Define Animation Variants with the 'Variants' type
+const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,
@@ -16,7 +16,7 @@ const containerVariants = {
     }
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
     hidden: { opacity: 0, y: 50 },
     visible: { 
         opacity: 1, 

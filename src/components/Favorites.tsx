@@ -1,11 +1,11 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import Image04 from "../assets/Images/img04.jpg";
 import Image05 from "../assets/Images/img05.jpg";
 import Image06 from "../assets/Images/img06.jpg";
 
-// 1. Define Animation Variants
-const containerVariants = {
+// 1. Explicitly type the variants using 'Variants'
+const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,
@@ -16,7 +16,7 @@ const containerVariants = {
     }
 };
 
-const cardVariants = {
+const cardVariants: Variants = {
     hidden: { opacity: 0, y: 60 },
     visible: { 
         opacity: 1, 
@@ -32,7 +32,7 @@ interface ProductCardProps {
     subtitle: string;
 }
 
-// 2. Convert ProductCard root to motion.div
+// 2. ProductCard component (No changes needed here, just context)
 const ProductCard = ({ img, title, price, subtitle }: ProductCardProps) => (
     <motion.div 
         variants={cardVariants}
