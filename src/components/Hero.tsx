@@ -9,13 +9,14 @@ const Hero = () => {
       {/* Text Content */}
       <div className="space-y-6 text-center md:text-left pt-10 md:pt-0">
         <h1 className="text-6xl md:text-8xl font-serif text-white font-bold leading-tight">
-          Café Zest
+          Café Zest 
+          cafe z
         </h1>
         <p className="text-[#D3C1B3] text-lg max-w-md mx-auto md:mx-0 font-light leading-relaxed">
           Freshly roasted coffee 2 infused with a zest for life. Locally sourced, organically brewed.
         </p>
         <button className="mt-8 px-8 py-3 bg-[#D4C3B5] text-[#261712] font-semibold rounded-full hover:bg-white transition-all transform hover:scale-105 shadow-lg">
-          Explore Menu 3
+          Explore Menu 
         </button>
       </div>
 
