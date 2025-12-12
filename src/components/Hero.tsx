@@ -15,7 +15,7 @@ const Hero = () => {
           Freshly roasted coffee infused with a zest for life. Locally sourced, organically brewed.
         </p>
         <button className="mt-8 px-8 py-3 bg-[#D4C3B5] text-[#261712] font-semibold rounded-full hover:bg-white transition-all transform hover:scale-105 shadow-lg">
-          Explore Menu
+          Explore Menu 3
         </button>
       </div>
 
